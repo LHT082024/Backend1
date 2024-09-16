@@ -23,9 +23,8 @@ class Program
     }
 
 
-    //user input methode console.write lets you add a number for every 
     public static double UserInput(){
-        Console.Write("Write your equation here: "); //5 + 4 // result
+        Console.Write("Write your equation here: "); 
         string? input = Console.ReadLine();
         return Convert.ToDouble(input); 
     }
