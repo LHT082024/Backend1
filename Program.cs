@@ -1,4 +1,5 @@
 ﻿using System.Formats.Asn1;
+using System.Reflection.Metadata;
 using System.Xml.XPath;
 
 namespace Backend1;
@@ -7,25 +8,49 @@ class Program
 {
     static void Main(string[] args)
     {
-        string openingTxt = "Awesome calcualtor";
+        //åpningslinje
+        string openingTxt = "pluss or minus";
         Console.WriteLine(openingTxt);
         
+        //henter kalkulatoren
          Calcualtor calcualtor = new Calcualtor();
 
-          string? userInput = Console.ReadLine(); 
-           //user write question.
-          //use calculator to solve question.
-          //print question. 
+        //leser user input
+         string? mathSymbols = Console.ReadLine();
 
-          calcualtor userInput = result
+         //henter switchyWitchy metoden
+         switchyWitchy(mathSymbols, calcualtor); 
+    }
 
-          Console.WriteLine("the answer is" + result);
 
-         
+    //user input methode console.write lets you add a number for every 
+    public static double UserInput(){
+        Console.Write("Write your equation here: "); //5 + 4 // result
+        string? input = Console.ReadLine();
+        return Convert.ToDouble(input); 
+    }
 
-        // Console.WriteLine(calcualtor.Add(3, 4));
-        // Console.WriteLine(calcualtor.Subtract(4, 2));
-  
+
+   //metode hvor eg utfører en switch statment 
+    public static void switchyWitchy(string mathSymbols,Calcualtor mathWizard){
+        //resultat vil være en double men double blir sur hvis den ikke har en verdi
+        //så double er like null for nå.
+        double? result = null;
+
+        //sier hvis user skriver + så bruker du add fra calculator og hvis user skriver minus så 
+        //skal den bruke subtract fra calculator.
+        switch (mathSymbols) 
+        {
+            case "+":
+            result = mathWizard.Add(UserInput(), UserInput()); 
+            break; 
+
+            case "-":
+            result = mathWizard.Subtract(UserInput(), UserInput());
+            break; 
+        } 
+        Console.WriteLine (result);
+
     }
 }
 

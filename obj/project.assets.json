@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lucie\\.nuget\\packages\\": {}
+    "C:\\Users\\falke\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucie\\documents\\intro-htmlCss\\Backend1\\Backend1.csproj",
+      "projectUniqueName": "C:\\Users\\falke\\Documents\\coding\\Backend1\\Backend1.csproj",
       "projectName": "Backend1",
-      "projectPath": "C:\\Users\\lucie\\documents\\intro-htmlCss\\Backend1\\Backend1.csproj",
-      "packagesPath": "C:\\Users\\lucie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucie\\documents\\intro-htmlCss\\Backend1\\obj\\",
+      "projectPath": "C:\\Users\\falke\\Documents\\coding\\Backend1\\Backend1.csproj",
+      "packagesPath": "C:\\Users\\falke\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\falke\\Documents\\coding\\Backend1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lucie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\falke\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
