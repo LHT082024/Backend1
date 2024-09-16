@@ -24,7 +24,7 @@ class Program
 
 
     public static double UserInput(){
-        Console.Write("Write your equation here: "); 
+        Console.Write("Write your number here: "); 
         string? input = Console.ReadLine();
         return Convert.ToDouble(input); 
     }
