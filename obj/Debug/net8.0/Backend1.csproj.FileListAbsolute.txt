@@ -1,0 +1,14 @@
+C:\Users\lucie\documents\intro-htmlCss\Backend1\bin\Debug\net8.0\Backend1.exe
+C:\Users\lucie\documents\intro-htmlCss\Backend1\bin\Debug\net8.0\Backend1.deps.json
+C:\Users\lucie\documents\intro-htmlCss\Backend1\bin\Debug\net8.0\Backend1.runtimeconfig.json
+C:\Users\lucie\documents\intro-htmlCss\Backend1\bin\Debug\net8.0\Backend1.dll
+C:\Users\lucie\documents\intro-htmlCss\Backend1\bin\Debug\net8.0\Backend1.pdb
+C:\Users\lucie\documents\intro-htmlCss\Backend1\obj\Debug\net8.0\Backend1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucie\documents\intro-htmlCss\Backend1\obj\Debug\net8.0\Backend1.AssemblyInfoInputs.cache
+C:\Users\lucie\documents\intro-htmlCss\Backend1\obj\Debug\net8.0\Backend1.AssemblyInfo.cs
+C:\Users\lucie\documents\intro-htmlCss\Backend1\obj\Debug\net8.0\Backend1.csproj.CoreCompileInputs.cache
+C:\Users\lucie\documents\intro-htmlCss\Backend1\obj\Debug\net8.0\Backend1.dll
+C:\Users\lucie\documents\intro-htmlCss\Backend1\obj\Debug\net8.0\refint\Backend1.dll
+C:\Users\lucie\documents\intro-htmlCss\Backend1\obj\Debug\net8.0\Backend1.pdb
+C:\Users\lucie\documents\intro-htmlCss\Backend1\obj\Debug\net8.0\Backend1.genruntimeconfig.cache
+C:\Users\lucie\documents\intro-htmlCss\Backend1\obj\Debug\net8.0\ref\Backend1.dll
